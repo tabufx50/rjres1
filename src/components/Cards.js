@@ -3,9 +3,11 @@ import CardItem from './CardItem';
 import './Cards.css';
 
 function Cards() {
+   
+
     return (
         <div className='cards'>
-            <h1>Check out these epic destinations!</h1>
+            <h1>Check out my Projects!</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
@@ -20,6 +22,7 @@ function Cards() {
                         text="Explore the hidden waterfall deep inside the Amazon jungle"
                         label='Adventure'
                         path='/services'
+                        
                         />
                     </ul>
                     <ul className='cards__items'>

@@ -1,0 +1,61 @@
+.bio-main {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.bio-container {
+  display: flex;
+  justify-content: center;
+  /* width: 1000px; */
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.headshot {
+  background: url("/src/assets/img-bio.jpg") center center/cover no-repeat;
+  /* position: relative; */
+  height: 280px;
+  width: 400px;
+  /* max-width: 600px; */
+  border-radius: 10px;
+  margin: 0 15px 10px 15px;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+}
+
+.body-copy {
+  width: auto;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+
+.bio-copy > p {
+  /* width: 95vw; */
+  /* margin: 5px 10px; */
+  padding: 10px 15px 0 19px;
+  font-size: 14px;
+  color: #888888;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@media screen and (max-width: 375px) {
+  .bio-copy > p {
+    width: 95vw;
+  }
+
+  .headshot {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 1022px) {
+  /* .headshot {
+    width: 52vw;
+  } */
+}
